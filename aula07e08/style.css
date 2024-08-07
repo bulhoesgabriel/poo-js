@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+}
+
+section {
+    background-color: black;
+}
+
+#container-ingredientes {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    color: rgb(50, 150, 50);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.ingrediente {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 150, 50, 0.25);
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.ingrediente img {
+    height: 4rem;
+}
+
+.ingrediente p {
+    margin-left: 2rem;
+}
+
+footer {
+    height: 4rem;
+}
